@@ -15,13 +15,11 @@ public class Contato {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 	  
-	@NotNull
+	//@NotNull
 	private String nome;
 	  
-	@NotNull
+	//@NotNull
 	private String apelido;
-	
-	// Public methods
 	  
 	public Contato() { }
 	
